@@ -1,0 +1,38 @@
+{
+  "name": "tc-website",
+  "version": "1.0.0",
+  "description": "Website for the Tavern Collective",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config ./webpack.prod.js",
+    "start": "webpack serve --config ./webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tavern-Collective/Website.git"
+  },
+  "keywords": [
+    "Tavern",
+    "Collective"
+  ],
+  "author": "BMscis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tavern-Collective/Website/issues"
+  },
+  "homepage": "https://github.com/Tavern-Collective/Website#readme",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.2.3",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "@vue/preload-webpack-plugin": "^2.0.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "node-polyfill-webpack-plugin": "^1.1.4",
+    "sass-loader": "^12.3.0"
+  }
+  
+}

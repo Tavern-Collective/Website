@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "module": "CommonJS",
+      "target": "ES2015",
+      "noImplicitAny": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "sourceMap": true,
+      "baseUrl": ".",
+      "rootDir": ".",
+      "outDir": "docs",
+      "allowJs": true,
+      "checkJs": false,
+      "esModuleInterop": true
+    },
+    "include": ["src/**/*.ts", "src/index.js"],
+    "exclude": ["node_modules"]
+    }
