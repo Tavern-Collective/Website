@@ -1,0 +1,13 @@
+tc-largecard{
+    display: block;
+    width: 45%;
+    height: 35%;
+    margin: 20px;
+    padding: 10px;
+}
+tc-horizontalcardcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,28 @@
+*{
+    pointer-events: none;
+}
+body{
+    font-family: 'Outfit';
+    background-image: 
+    url(../tcCyclep1Bland.png), 
+    linear-gradient(1deg, #00766b, #009688,darkcyan), 
+    linear-gradient(293deg, magenta, cyan), 
+    linear-gradient(279deg, #e91e63, #4e0c0c);
+    background-size: 40%, 52%, 4%, 13%;
+    height: 90vh;
+    margin: 5vh;
+    background-blend-mode: normal,hard-light;
+    background-position-x: center;
+    background-position-y: center,bottom;
+    background-repeat: no-repeat,round,space,round;
+}
+.logo{
+    position: absolute;
+    background-image: url(../tavernlogo.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 10%;
+    width: 50%;
+    height: 35%;
+    z-index: -1;
+}
